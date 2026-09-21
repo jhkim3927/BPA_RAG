@@ -17,16 +17,3 @@ print("\n" + "=" * 70)
 
 """
 
-import subprocess
-import sys
-
-subprocess.check_call([
-    sys.executable, "-m", "pip", "install",
-    "numpy==1.26.4",
-    "langchain",
-    "langchain-community",
-    "langchain-ollama",
-    "chromadb",
-    "sentence-transformers",
-    "pypdf"
-])
